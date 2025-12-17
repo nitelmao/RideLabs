@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart - My Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Your Cart</h2>
+
+    <div class="cart">
+		<div id="cart-items"></div>
+
+		<div class="total">
+		Total: <span id="total">$0.00</span>
+		</div>
+
+		<div class="checkout">
+			<a href="checkout.html">
+				<button>Checkout</button>
+			</a>
+		</div>
+		
+		<div class="clear-cart">
+			<button onclick="clearCart()">Clear cart</button>
+		</div>
+	</div>
+  </main>
+
+  <footer>
+    © 2025 My Shop. All rights reserved.
+  </footer>
+<script src="cart.js"></script>
+</body>
+</html>

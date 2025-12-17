@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>RideLabs</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>RideLabs Shop</h2>
+    <p>High Quality Stickers</p>
+  </section>
+
+  <main class="container">
+    <h2>Products</h2>
+
+    <div class="products">
+      <div class="product">
+        <img src="Images/logo.png" alt="Brand Sticker" />
+        <h3>Brand Sticker</h3>
+        <p class="price">$6.99</p>
+        <button onclick="addToCart('Brand Sticker', 6.99)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/logo.png" alt="Product 2" />
+        <h3>Product Two</h3>
+        <p class="price">$29.99</p>
+        <button onclick="addToCart('Product Two', 29.99)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/logo.png" alt="Product 3" />
+        <h3>Product Three</h3>
+        <p class="price">$39.99</p>
+        <button onclick="addToCart('Product Three', 39.99)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/logo.png" alt="Product 4" />
+        <h3>Product Four</h3>
+        <p class="price">$49.99</p>
+        <button onclick="addToCart('Product Four', 999999.99)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 My Shop. All rights reserved.
+  </footer>
+<script src="cart.js"></script>
+</body>
+</html>
